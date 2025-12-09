@@ -26,4 +26,9 @@ int isValid(Triangle triangle);
 */
 float getArea(Triangle triangle);
 
+/*
+@returns perimeter of `triangle`
+*/
+float getPerimeter(Triangle triangle);
+
 #endif

@@ -41,3 +41,12 @@ float getArea(Triangle triangle)
     float p = ((a * b) * (a * c) * (b * c)) / 2;
     return sqrtf(p * (p - a) * (p - b) * (p - c));
 }
+
+float getPerimeter(Triangle triangle)
+{
+    float a = getSideA(triangle);
+    float b = getSideB(triangle);
+    float c = getSideC(triangle);
+
+    return a + b + c;
+}
